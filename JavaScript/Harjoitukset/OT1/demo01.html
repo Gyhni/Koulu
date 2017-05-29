@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Java Script Perusteet 1</title>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Javascript perusteet</h1>
+<h2> Hello world- esimerkki </h2>
+
+<script>
+// Yksirivinen kommentti
+/*
+Kommentteja
+usealla
+rivillä
+*/
+var tervehdys = " Heippa, ";
+var nimi = "Jermu";
+var tervehdysteksti;
+tervehdysteksti = tervehdys + nimi;
+document.write("Hei vaan!");
+document.write(tervehdysteksti);
+</script>
+<h2> Muuttujat ja ehtorakenne (if)</h2>
+<script>
+var luku1 = 2;
+var luku2 = 5;
+var tulos;
+
+tulos = luku1 + luku2;
+
+console.log(tulos);
+
+if (tulos == 7) 
+{
+	document.write("Tulos on seiska JEEEEE!!!");
+}
+else
+{
+	document.write("Tulos ei ole seiska");
+}
+
+
+</script>
+
+<h2>Taulukkomuuttujat ja toistorakenteet (for) </h2>
+
+<script>
+var i = 0;
+
+var taulukko = new Array();
+
+taulukko[0] = "Sinappi";
+taulukko[1] = "Ketsuppi";
+taulukko[2] = "Kurkkusalaatti";
+taulukko[3] = "Valkosipuli";
+taulukko[4] = "Majoneesi";
+
+for (i=0;i<5;i++)
+{
+	kierrosluku=i+1;
+
+	document.write("Kierros: " + kierrosluku + ". ");
+	document.write(" Mauste: " + taulukko[i] + "<br>");
+}
+</script>
+<!--noscript>
+
+Kun Java ei ole tuettu
+
+</noscript!-->
+
+</body>
+</html>

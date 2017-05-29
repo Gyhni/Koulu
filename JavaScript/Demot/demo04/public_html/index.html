@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript ja dynaaminen HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tyylit.css"/>
+        <script type="text/javascript" src="skripti.js"></script>   
+    </head>
+    <body>
+        <h1>Javascript ja dynaaminen HTML</h1>
+        
+        <h2>CSS-manipulaatio</h2>
+        
+        <div id="tekstialue">Tähän jotain sisältöä. No en minä keksi muutakuin.... ja vaikka kuinka itkis ja .......</div>
+        
+        <select id="vari">
+            <option value ="red">Punainen</option>
+            <option value ="blue">Sininen</option>
+            <option value ="green">Vihreä</option>
+        </select>
+        
+        <button onClick="vaihdaVari()">Vaihda väri</button>
+        <button onClick="piilota()">Piilota</button>
+        <button onClick="nayta()">Näytä</button>
+        
+        <h2>Kuvan vaihto</h2>
+        
+        <img id="kuva" src="koala.jpg" width="259" height="194" alt="KOALA" onmouseover="vaihdaKuva()" onmouseout="vaihdaKuvaTakas()">
+    </body>
+</html>

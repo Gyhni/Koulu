@@ -1,0 +1,26 @@
+h2
+{
+  text-align: center;
+  position: relative;
+  width:600px;
+  margin-left: 400px;
+}
+body
+{
+    margin:auto;
+    width:1463px;
+    background-color: #381f14;
+}
+#tabs
+{
+    margin-top: 10px;
+    text-align: center;
+}
+#teksti
+{
+    
+}
+#otsikko
+{
+    color: white;
+}

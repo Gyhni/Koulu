@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tapahtumapohjainen Javascript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="skriptit.js"></script>
+    </head>
+    <body>
+  
+        <h1>Tapahtumapohjainen Javascript</h1>
+        
+        <h2>Hello world (tapahtumat ja DOM-versio)</h2>
+        
+        <input type="text" id="nimi" size="15" placeholder="Anna nimesi"/>
+        
+        <button onclick="sanoHeippa();">Paina tästä</button>
+        
+        <div id="tervehdys"></div>
+        
+        <h2>Nelilaskin</h2>
+        
+        <input onkeyup="laske();" type="text" id="luku1" size="5"/>
+        <select onchange="laske();" id="laskutoimitus">
+            <option value="plussa">+</option>
+            <option value="miinus">-</option>
+            <option value="kerto">*</option>
+            <option value="jako">/</option>
+        </select>    
+        <input onkeyup="laske();" type="text" id="luku2" size="5"/>
+        <button onclick="laske();">Laske</button>
+        
+        <div id="tulos"></div>
+        
+    </body>
+</html>

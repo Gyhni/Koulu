@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nimet>
+    <nimi>
+        <etunimi>Joonas</etunimi>
+        <etunimi>Santeri</etunimi>
+        <sukunimi>Kilpi</sukunimi>
+    </nimi>
+    <nimi>
+        <etunimi>Leo</etunimi>
+        <etunimi>Kalevi</etunimi>
+        <etunimi>Urho</etunimi>
+        <sukunimi>Kekkonen</sukunimi>
+    </nimi>
+    <nimi>
+        <etunimi>Mauno</etunimi>
+        <etunimi>Henrik</etunimi>
+        <sukunimi>Koivisto</sukunimi>
+    </nimi>
+</nimet>

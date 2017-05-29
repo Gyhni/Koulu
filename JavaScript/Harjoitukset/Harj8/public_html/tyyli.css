@@ -1,0 +1,41 @@
+body
+{
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 11pt;
+    background-color: grey;
+}
+
+#kukka
+{
+    border: solid black 1px;
+    width: 100px;
+    height: 75px;
+    background-color: gray;
+}
+#elain
+{
+    border: solid black 1px;
+    width: 100px;
+    height: 75px;
+    background-color: gray;
+}
+#muut
+{
+    border: solid black 1px;
+    width: 100px;
+    height: 75px;
+    background-color: gray;
+}
+.pudotusalue
+{
+    
+    border: solid 3px black;
+    width: 500px;
+    height: 200px;
+    margin:10px;
+    
+}
+.hohto
+{
+    box-shadow: pink 0px 0px 20px 20px;
+}

@@ -1,0 +1,49 @@
+body
+{
+    
+    font-family: Tahomam Arial, sans-serif;
+    font-size: 11pt;
+    background-color: whitesmoke;
+    
+}
+.ui-selected
+{
+    
+    border: solid 5px pink;
+    
+}
+.ui-selecting
+{
+    
+    border: solid 5px pink;
+    box-shadow: 0px 0px 10px aqua;
+    
+}
+#divi01, #divi02
+{
+    
+    border: solid 1px black;
+    background-color: whitesmoke;
+    width: 200px;
+    min-height: 257px;
+    float: left;
+    margin-left: 5px;
+    
+}
+.laatikot
+{
+    
+    border: solid 1px black;
+    background-color: whitesmoke;
+    width: 180px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+#nappi
+{
+    
+    display: none;
+    
+}

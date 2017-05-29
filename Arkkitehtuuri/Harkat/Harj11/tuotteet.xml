@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tuotteet>
+  <tuote xml:id="tuote_141164974428152160">
+    <nimi>Fluffylove</nimi>
+    <hinta>3</hinta>
+  </tuote>
+  <tuote xml:id="tuote_141224875382572937">
+    <nimi>ES</nimi>
+    <hinta>20</hinta>
+  </tuote>
+  <tuote xml:id="tuote_141762049755016479">
+    <nimi>Nepo</nimi>
+    <hinta>900</hinta>
+  </tuote>
+  <tuote xml:id="tuote_141762085459765319">
+    <nimi>Naama</nimi>
+    <hinta>123</hinta>
+  </tuote>
+  <tuote xml:id="tuote_141762087192232666">
+    <nimi>Neko Nyan</nimi>
+    <hinta>5</hinta>
+  </tuote>
+</tuotteet>

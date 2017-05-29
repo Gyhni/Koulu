@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+body, input
+{
+    font-family: 'Nunito', sans-serif;
+    background-color: #333333 ;
+    color: #adadad;
+}
+#container
+{
+    width:640px;
+    margin:auto;
+    color: #adadad;
+}
+table
+{
+    border-collapse: collapse;
+    border: solid 1px #567126;
+    width: 100%;
+    box-shadow: 10px 10px 5px 5px black; 
+    margin-top:12px;
+}
+th
+{
+    text-align: left;
+    background-color: #567126;
+    padding: 15px;
+    color:black;
+}
+td
+{
+    padding: 10px;
+    border-top:1px solid #567126;
+    color: #adadad;
+}
+h1
+{
+    color: #567126;
+    text-align: center;
+}
+a
+{
+    color: #567126;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #567126;
+    text-decoration: none;
+}
+label
+{
+    display: block;
+    float: left;
+    width:160px;
+}
+fieldset
+{
+    padding: 12px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px 5px black;
+    border-collapse: collapse;
+    border: solid 1px #567126;
+    
+}
+input
+{
+    padding: 5px;
+}
+input[type="submit"]
+{
+    padding:10px 25px 10px 25px;
+    border-collapse: collapse;
+    border: solid 1px #567126;
+}

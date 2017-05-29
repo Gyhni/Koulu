@@ -1,0 +1,22 @@
+#seuraavat
+{
+    
+   display: block;
+   float:left;
+    
+}
+#edelliset
+{
+    
+    display: block;
+    float:left;
+    
+}
+#numero
+{
+    float:left;
+}
+#lista
+{
+    clear:both;
+}

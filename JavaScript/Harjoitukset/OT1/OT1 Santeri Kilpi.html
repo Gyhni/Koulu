@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OT1</title>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h2>1 Valuutta muunnin</h2>
+
+<script>
+
+var euro;
+var tulos;
+
+	euro = prompt("Syötä €uromäärä:");
+	tulos = euro * 1.3188;
+	document.write(tulos);
+
+</script>
+
+<h2> 2 Matriisi </h2>
+<script>
+var luku = 0;
+
+
+
+for (luku=0;luku<100;luku++)
+{
+	if(luku%10==0) 
+	{
+
+	document.write("<br>");
+	}
+	if(luku<10)
+	{
+	document.write("0");
+	}
+
+	document.write(luku + " ");
+
+
+}
+</script>
+<h2> 3 Array </h2>
+<script>
+var luku = 0;
+var laskuri = 0
+var taulukko = new Array
+
+for (luku=0;luku<100;luku++)
+{
+	taulukko[luku]=luku;
+	if(luku%10==0) 
+	{
+
+	document.write("<br>");
+	}
+	if(luku<10)
+	{
+	document.write("0");
+	}
+
+	document.write(luku + " ");
+}
+taulukko.reverse();
+document.write("<br>");
+
+//Toinen taulukko
+
+for (luku=0;luku<100;luku++)
+{
+		laskuri++
+	if (laskuri == 41)
+	{
+	var j = taulukko[luku]
+	}
+	if(luku%10==0) 
+	{
+
+	document.write("<br>");
+	}
+	if(luku>89)
+	{
+	document.write("0");
+	}
+
+
+	document.write(taulukko[luku] + " ");
+
+}
+//Allertti
+
+alert(j);
+</script>
+<h2>4 Date olio</h2>
+<script>
+var nyt = new Date();
+var joulu = new Date(2014,11,24);
+console.log(nyt);
+console.log(joulu);
+//Otetaan erotus joulun ja nyky hetken välillä
+var ero = Date.parse(joulu) - Date.parse(nyt);
+console.log(ero);
+//Palautetaan takaisin normaaliin muotoon päivämäärä
+var j = Date.prototype.toUTCString(ero);
+console.log(j);
+//Jäi kesken!!!
+</script>
+</body>
+</html>

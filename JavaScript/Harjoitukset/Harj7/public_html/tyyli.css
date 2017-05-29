@@ -1,0 +1,21 @@
+h2
+{
+  text-align: center;
+  margin-top: -75px;
+  background-color: red;
+  position: relative;
+  width:600px;
+  margin-left: 400px;
+  opacity: 0.75;
+}
+body
+{
+    margin:auto;
+    width:1463px;
+    background-color: #381f14;
+}
+#tabs
+{
+    margin-top: 10px;
+    text-align: center;
+}

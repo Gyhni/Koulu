@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tuotteet>
+  <tuote xml:id="tuote_141164960291150512">
+    <nimi>Mopo</nimi>
+    <hinta>5</hinta>
+  </tuote>
+  <tuote xml:id="tuote_141164970332749938">
+    <nimi>Aasi</nimi>
+    <hinta>50</hinta>
+  </tuote>
+  <tuote xml:id="tuote_141164974428152160">
+    <nimi>Fluffylove</nimi>
+    <hinta>3</hinta>
+  </tuote>
+  <tuote xml:id="tuote_141224875382572937">
+    <nimi>ES</nimi>
+    <hinta>20</hinta>
+  </tuote>
+</tuotteet>

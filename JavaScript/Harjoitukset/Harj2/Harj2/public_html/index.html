@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Harjoitus 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Skriptit.js"></script>
+    </head>
+    <body>
+        <h1>Harjoitus 2 </h1>
+        
+        <h2>Komponentti laskuri</h2>
+        <input onChange="laske();" type="text" id="hinta1" size="16" placeholder="Koppa"/><br>
+        <input onChange="laske();" type="text" id="hinta2" size="16" placeholder="Prossu"/><br>
+        <input onChange="laske();" type="text" id="hinta3" size="16" placeholder="Jäähy"/><br>
+        <input onChange="laske();" type="text" id="hinta4" size="16" placeholder="Emo"/><br>
+       
+        
+        <div id="summa"></div>
+        <h2>Posti taulukko</h2>
+        <form method = "get" action = "" onSubmit = "return.tayta();">
+        <input type="text" id="nimi" size="16" placeholder="Nimi"/><br>
+        <button onclick="tayta();">Aja</button>
+        </form>
+    </body>
+</html>
